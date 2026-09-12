@@ -1,0 +1,17 @@
+.skip-link{position:fixed;top:10px;left:10px;z-index:100;background:#fff;color:var(--ink);padding:10px 14px;border-radius:10px;box-shadow:0 8px 24px #11193624;transform:translateY(-150%)}
+.skip-link:focus{transform:translateY(0)}
+.legal .lede{max-width:680px}
+.legal-body a{color:var(--violet);font-weight:750;text-decoration:underline;text-underline-offset:3px}
+.summary{background:#eefbf8;border:1px solid #c9f2e9;border-radius:20px;padding:22px!important;color:var(--ink)!important}
+.support-intro{max-width:820px}
+.support-email{margin-top:28px;overflow-wrap:anywhere}
+.faq-section{max-width:820px;margin-top:72px}
+.faq-section>h2{font-size:clamp(2.4rem,5vw,4rem);line-height:1;letter-spacing:-.06em;margin:0 0 30px}
+.faq{display:grid;gap:12px}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:18px;padding:0 20px}
+.faq summary{cursor:pointer;font-weight:800;padding:20px 30px 20px 0;list-style:none;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:0;top:15px;font-size:1.5rem;color:var(--violet)}
+.faq details[open] summary::after{content:"−"}
+.faq details p{color:var(--muted);margin:0;padding:0 0 20px}
+@media(max-width:760px){.faq-section{margin-top:52px}.support-email{width:100%;text-align:center}}
