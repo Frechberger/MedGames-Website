@@ -7,21 +7,23 @@
   <meta name="theme-color" content="#111936">
   <title>MedGames — Play a little smarter</title>
   <link rel="icon" href="assets/medgames-mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/site.css?v=2">
+  <script src="assets/site.js?v=2" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="MedGames home"><img src="assets/medgames-mark.svg" alt=""> <span>MEDGAMES</span></a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
-    <nav id="site-nav" class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation"><a class="active" href="index.html" aria-current="page">Home</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero wrap">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="pulse-dot"></span> Short rounds. Big brain energy.</p>
+        <p class="eyebrow"><span class="pulse-dot"></span> 17 games. Quick rounds.</p>
         <h1>Medicine,<br><em>in motion.</em></h1>
-        <p class="lede">A collection of fast, focused mini-games for testing your medical instincts—one satisfying round at a time.</p>
+        <p class="lede">Fast medical mini-games for testing your knowledge, sharpening recall, and chasing a better score.</p>
         <div class="hero-actions"><span class="button button-primary">Coming to the App Store</span><a class="text-link" href="#games">Explore the games <span aria-hidden="true">↗</span></a></div>
       </div>
       <div class="game-orbit" aria-label="Preview of MedGames mini-games">
@@ -39,12 +41,16 @@
       <article class="game-tile tile-gold"><span class="tile-icon">⌁</span><h3>Lab Rush</h3><p>Spot the dangerous value under pressure.</p></article>
       <article class="game-tile tile-violet"><span class="tile-icon">→</span><h3>Next Move</h3><p>Choose the best immediate clinical step.</p></article>
       <article class="game-tile tile-pink"><span class="tile-icon">◌</span><h3>Connect</h3><p>Match the medical pairs as quickly as you can.</p></article>
-      <article class="game-tile tile-blue"><span class="tile-icon">▰</span><h3>More on the way</h3><p>New formats are being prototyped for the lobby.</p></article>
-    </div></section>
+      <article class="game-tile tile-blue"><span class="tile-icon">⌁</span><h3>ECG Blitz</h3><p>Recognize the rhythm and keep the run alive.</p></article>
+      <article class="game-tile tile-orange"><span class="tile-icon">◇</span><h3>Odd One Out</h3><p>Find the term that does not belong.</p></article>
+      <article class="game-tile tile-indigo"><span class="tile-icon">★</span><h3>USMLE Blitz</h3><p>Move quickly through original board-style questions.</p></article>
+      <article class="game-tile tile-rose"><span class="tile-icon">!</span><h3>Spot the Mistake</h3><p>Catch the unsafe detail before time runs out.</p></article>
+    </div>
+    <p class="game-count"><strong>Also inside:</strong> Red Flag · Rapid Triage · Sort It · Rank It · Who Am I? · Drug Chain · Diagnosis Ladder · Swipe Mode</p>
+    </section>
 
-    <section class="promise wrap"><div><p class="eyebrow">Made for replay</p><h2>Learn a little.<br>Play again.</h2></div><p>MedGames is an educational game prototype, not a clinical decision-support tool. Keep your best runs on your device and come back whenever you want a quick challenge.</p></section>
+    <section class="promise wrap"><div><p class="eyebrow">Made for replay</p><h2>Learn a little.<br>Play again.</h2></div><p>MedGames is an educational game, not a clinical decision-support tool. Your progress stays on your device, ready for the next quick challenge.</p></section>
   </main>
   <footer class="site-footer wrap"><a class="brand" href="index.html"><img src="assets/medgames-mark.svg" alt=""> <span>MEDGAMES</span></a><div><a href="privacy.html">Privacy Policy</a><a href="support.html">Support</a></div><p>© 2026 MedGames</p></footer>
-  <script src="assets/site.js"></script>
 </body>
 </html>

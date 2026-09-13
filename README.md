@@ -1,6 +1,6 @@
 # MedGames Website
 
-Static draft website for MedGames. It is kept in `website/` and is not published automatically.
+Static pre-launch website for MedGames. The design, mobile layout, privacy policy, and support page are complete. Publication remains a separate, explicit launch step.
 
 ## Support address
 
@@ -18,6 +18,6 @@ Then open <http://localhost:8000>.
 
 ## Publishing
 
-Do not publish this draft until the support email, privacy wording, and final App Store URL have been reviewed. A deployment workflow can be added when the public launch is approved.
+The support email and privacy wording are in place. Do not publish until the public launch is approved. A deployment workflow can be added at that point.
 
 Before launch, replace the “Coming to the App Store” label when an official App Store URL exists.
