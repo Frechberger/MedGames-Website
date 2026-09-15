@@ -1,6 +1,6 @@
-# MedGames Website
+# Arcade MD Website
 
-Static website for MedGames. The public files live in `dist/` and include the responsive landing page, privacy policy, and support page.
+Static website for Arcade MD. The public files live in `dist/` and include the responsive landing page, privacy policy, and support page.
 
 Public site: <https://frechberger.github.io/MedGames-Website/>
 
