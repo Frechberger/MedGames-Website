@@ -2,6 +2,8 @@
 
 Static website for MedGames. The public files live in `dist/` and include the responsive landing page, privacy policy, and support page.
 
+Public site: <https://frechberger.github.io/MedGames-Website/>
+
 ## Support address
 
 The public support address is `tobias@frech-online.net`. If it changes, update the `mailto:` links in `dist/privacy.html` and `dist/support.html`.
