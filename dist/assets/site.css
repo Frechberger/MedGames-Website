@@ -14,3 +14,6 @@ html,body{max-width:100%;overflow-x:hidden}
 .game-count strong{color:var(--ink)}
 @media(max-width:760px){.game-count{text-align:left;margin-top:22px}.game-tile:hover{transform:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.game-tile{transition:none}}
+
+.brand img{width:42px;height:42px;border-radius:12px}
+.site-footer .brand img{width:34px;height:34px}
